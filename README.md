@@ -1,13 +1,21 @@
 # BERTOTI
 Engenharia de Software
 
-O que é Engenharia de Software ?
+Trecho do livro software engineering at Google
 
-A engenharia de software é a área da ciência da computação que trata da especificação, arquitetura, desenvolvimento, manutenção e criação de software.
-O grande objetivo aqui é o desenvolvimento de softwares com organização, agilidade e visando um produto final escalável, de fácil manutenção e, sobretudo, que atenda as necessidades do cliente. 
+"We see three critical differences between programming and software engineering: time, scale, and the trade-offs at play. On a software engineering 
+project, engineers need to be more concerned with the passage of time and the eventual need for change. In a software engineering organization, we
+need to be more concerned about scale and efficiency, both for the software we produce as well as for the organization that is producing it. Finally, as
+software engineers, we are asked to make more complex decisions with higher-stakes outcomes, often based on imprecise estimates of time and
+growth.
+Within Google we sometimes say, “Software engineering is programming integrated over time.” Programming is certainly a significant part of software
+engineering: after all, programming is how you generate new software in the first place. If you accept this distinction, it also becomes clear that we might
+need to delineate between programming tasks (development) and software engineering tasks (development, modification, maintenance). The addition of
+time adds an important new dimension to programming. Cubes aren’t squares, distance isn’t velocity. Software engineering isn’t programming.";
 
-Estes resultados são possíveis com a aplicação de boas práticas no levantamento de requisitos, aplicação de padrões de projeto e das melhores práticas de usabilidade e métodos de gerenciamento de projetos.
-Na engenharia de software, existem tecnologias como linguagens de programação, bancos de dados, plataformas e metodologias de desenvolvimento e bibliotecas de código . 
-Por sua vez, a fundamentação teórica da engenharia de software envolve o uso de modelos abstratos que permitem ao engenheiro realizar a especificação do software, projetar seu desenvolvimento, realizar a implementação e planejar sua manutenção e garantia de qualidade.  
-(fonte: https://kenzie.com.br/blog/engenharia-de-software/).
+- O que é Engenharia de Software ?
+A engenharia de software difere da progamação onde antes de começar a criar o codigo é preciso se realizar os trade-offs com relação a escabilidade e tempo para que
+perceba-se no menor tempo possivel os possiveis desavios a serem enfretado e se realmente vale enfrentar ou mudar a rota do projeto.
+
+
 
