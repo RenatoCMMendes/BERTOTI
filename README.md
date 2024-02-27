@@ -17,5 +17,29 @@ time adds an important new dimension to programming. Cubes aren’t squares, dis
 A engenharia de software difere da progamação onde antes de começar a criar o codigo é preciso se realizar os trade-offs com relação a escabilidade e tempo para que
 perceba-se no menor tempo possivel os possiveis desavios a serem enfretado e se realmente vale enfrentar ou mudar a rota do projeto.
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Atividade 2
+
+1 Trade off's
+
+Instalar o sistema operacionar em um servidor windows x linux
+
+- Por um lado o Windows oferece uma interface grafica que promove uma menor curva de aprendizagem para quem irá utilizar, só que ao olhar pelo lado da estabilidade daquele servidor o Linux oferecer uma estabiliadade de praticamente 24/7 que para alguns serviços é crucial para o software.
+
+2 Trade off's
+
+Programar em uma linguagem de alto nivel x baixo nivel 
+
+- Para os programadores iniciantes a linguagem alto nivel promove uma melhor maleabilidade não terndo tantas regras rigidas, mas por outro lado as linguages de baixo nivel promovel uma velocidade para a aplicação.
+
+3 Trade off's
+
+Escolher uma linguagem por tempo de projeto x escalabilidade
+
+- Ao se iniciar um projeto deve se escolher a lingaguem a ser utilizado caso a urgencia do projeto seja o tempo existem liguagens de puxa e errasta que entregam projetos em semanas mas para progetos que irá ter uma escalabilidade grandeosa essas lingagens não irão suprir a necessidade preferindo trocar por outra que demore mais tempo para entrega do projeto e que sustento o tamanho do projeto.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 
