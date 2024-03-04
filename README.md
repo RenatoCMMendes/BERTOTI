@@ -44,7 +44,7 @@ Escolher uma linguagem por tempo de projeto x escalabilidade
 Atividade 3
 
 Layered Architecture Style
-- A melhor caracteristica desta arquitetura é a sua simplicidade, promovendo agilidade no projeto
+- A melhor caracteristica desta arquitetura é a sua simplicidade, promovendo agilidade no projeto, mas a sua escalabilidade acaba sendo um empecilho caso o projeto cresça
 
 Pipeline Architecture Style
 - Esta aquitetura ainda se destaca pela sua simplicidade mas com melhoras em pontos como modularidade e ser evolucionario
