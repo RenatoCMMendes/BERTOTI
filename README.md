@@ -19,7 +19,7 @@ perceba-se no menor tempo possivel os possiveis desavios a serem enfretado e se 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Atividade 2
+# Atividade 2
 
 1 Trade off's
 
@@ -41,7 +41,7 @@ Escolher uma linguagem por tempo de projeto x escalabilidade
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Atividade 3
+# Atividade 3
 
 Layered Architecture Style
 Aplicativos como o Microsoft Word ou Excel seguem princípios de arquitetura em camadas, separando a interface do usuário, a lógica de aplicação e o armazenamento de dados. A arquitetura em camadas é uma escolha popular em muitas aplicações devido à sua capacidade de organizar e gerenciar complexidade através da separação de preocupações. No entanto, os desenvolvedores devem estar cientes dos trade-offs em termos de performance e complexidade inicial ao decidir adotar esse estilo arquitetural. É importante avaliar se os benefícios de manutenção e escalabilidade superam os custos adicionais de desenvolvimento para o contexto específico do projeto.
@@ -62,7 +62,7 @@ Microservices Architecture
 Spotify utiliza microserviços para suas funcionalidades de streaming de música, listas de reprodução, pesquisa, e recomendações, permitindo uma entrega contínua de novas funcionalidades e escalabilidade eficiente. A arquitetura de microserviços oferece benefícios significativos em termos de escalabilidade, resiliência e flexibilidade, tornando-a ideal para aplicações grandes e complexas que exigem alta disponibilidade e rapidez de inovação. No entanto, a adoção dessa arquitetura vem com desafios consideráveis, incluindo a complexidade de gerenciamento, comunicação entre serviços e consistência de dados. A decisão de adotar uma arquitetura de microserviços deve considerar a capacidade da equipe de desenvolvimento para gerenciar essa complexidade e a natureza específica dos requisitos da aplicação
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Atividade 4
+# Atividade 4
 
 Sistema Escolhido: Sistema de Pet Shop
 Arquitetura: Arquitetura Baseada em Eventos
@@ -130,12 +130,12 @@ Conclusão
 A arquitetura escolhida para o sistema de pet shop, baseada em eventos, banco de dados NoSQL para dados não estruturados e escalabilidade horizontal, é altamente adequada para lidar com a diversidade de funcionalidades necessárias, como agendamento de serviços, gestão de inventário e vendas online. Essa arquitetura oferece flexibilidade, escalabilidade e reatividade, mas também apresenta desafios em termos de gestão de complexidade, garantia de consistência e custos operacionais. A escolha final deve considerar os requisitos específicos do sistema e as prioridades em termos de escalabilidade, consistência e facilidade de manutenção.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Atividade 5
+# Atividade 5
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Atividade 6
+# Atividade 6
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Atividade 7
+# Atividade 7
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
