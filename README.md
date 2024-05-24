@@ -129,7 +129,7 @@ A arquitetura escolhida para o sistema de pet shop, baseada em eventos, banco de
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Atividade 5
-![Diagrama](C:\Users\Renato Mendes\IdeaProjects\BERTOTI\img\petshop.png)
+![Diagrama](https://github.com/RenatoCMMendes/BERTOTI/blob/83d2aa337641d85ede610c80e43ebe726b616b3c/img/petshop.png)
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Atividade 6
 
