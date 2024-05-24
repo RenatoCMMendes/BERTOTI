@@ -18,7 +18,6 @@ A engenharia de software difere da progamação onde antes de começar a criar o
 perceba-se no menor tempo possivel os possiveis desavios a serem enfretado e se realmente vale enfrentar ou mudar a rota do projeto.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 # Atividade 2
 
 1 Trade off's
@@ -40,7 +39,6 @@ Escolher uma linguagem por tempo de projeto x escalabilidade
 - Ao se iniciar um projeto deve se escolher a lingaguem a ser utilizado caso a urgencia do projeto seja o tempo existem liguagens de puxa e errasta que entregam projetos em semanas mas para progetos que irá ter uma escalabilidade grandeosa essas lingagens não irão suprir a necessidade preferindo trocar por outra que demore mais tempo para entrega do projeto e que sustento o tamanho do projeto.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 # Atividade 3
 
 Layered Architecture Style
@@ -132,9 +130,9 @@ A arquitetura escolhida para o sistema de pet shop, baseada em eventos, banco de
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Atividade 5
 
-
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Atividade 6
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Atividade 7
 
