@@ -68,15 +68,19 @@ Vantagens:
 Desacoplamento:
 
 Descrição: Componentes do sistema podem funcionar de forma independente, respondendo a eventos sem dependências diretas entre si.
+
 Benefício: Aumenta a flexibilidade do sistema, permitindo que novos serviços sejam adicionados sem alterar os existentes.
 Escalabilidade:
 
 Descrição: Os componentes podem ser escalados independentemente com base na quantidade de eventos processados.
+
 Benefício: Permite escalar apenas os componentes que estão sob alta demanda, otimizando o uso de recursos.
 Reatividade:
 
 Descrição: O sistema pode reagir a eventos em tempo real, proporcionando uma experiência mais responsiva para o usuário.
+
 Benefício: Melhora a experiência do usuário com respostas rápidas a ações como agendamento de consultas, atualizações de inventário e notificações.
+
 Desvantagens:
 Complexidade de Gestão de Eventos:
 
@@ -87,24 +91,7 @@ Consistência Eventual:
 Descrição: Em sistemas baseados em eventos, os dados podem não ser imediatamente consistentes em todos os componentes.
 Impacto: Pode resultar em leituras temporariamente desatualizadas, o que pode ser problemático para operações críticas como o processamento de pagamentos.
 Banco de Dados NoSQL para Dados Não-Estruturados
-Vantagens:
-Flexibilidade de Esquema:
 
-Descrição: Os bancos de dados NoSQL são ideais para lidar com dados não estruturados, com a capacidade de ajustar esquemas conforme necessário.
-Benefício: Permite fácil adaptação aos dados variados que um pet shop pode manipular, como informações de clientes, históricos de saúde dos pets, inventário de produtos e agendamentos.
-Desempenho em Leitura e Gravação:
-
-Descrição: Podem oferecer melhor desempenho em casos de leitura e gravação intensiva, com modelos de dados otimizados para determinados casos de uso.
-Benefício: Melhora a performance em consultas frequentes, como busca de produtos, histórico de consultas e registros de clientes.
-Desvantagens:
-Consistência Eventual:
-
-Descrição: Alguns bancos de dados NoSQL podem optar por consistência eventual, o que pode levar a leituras inconsistentes em ambientes altamente concorrentes.
-Impacto: Pode resultar em dados temporariamente desatualizados para os usuários, o que pode ser problemático em operações críticas como agendamentos e processamento de pedidos.
-Menos Suporte a Transações Complexas:
-
-Descrição: Funcionalidades avançadas de transação podem ser limitadas em comparação com bancos de dados relacionais.
-Impacto: Dificulta a implementação de operações complexas que exigem garantias transacionais fortes, como aquelas que envolvem múltiplas tabelas ou coleções de dados.
 Escalabilidade Horizontal
 Vantagens:
 Distribuição de Carga:
@@ -124,6 +111,7 @@ Custo:
 
 Descrição: Aumentar a infraestrutura horizontalmente pode resultar em custos mais elevados.
 Impacto: Pode resultar em custos adicionais para hardware, software e recursos humanos, devido à necessidade de mais servidores e gerenciamento mais complexo.
+
 Conclusão
 A arquitetura escolhida para o sistema de pet shop, baseada em eventos, banco de dados NoSQL para dados não estruturados e escalabilidade horizontal, é altamente adequada para lidar com a diversidade de funcionalidades necessárias, como agendamento de serviços, gestão de inventário e vendas online. Essa arquitetura oferece flexibilidade, escalabilidade e reatividade, mas também apresenta desafios em termos de gestão de complexidade, garantia de consistência e custos operacionais. A escolha final deve considerar os requisitos específicos do sistema e as prioridades em termos de escalabilidade, consistência e facilidade de manutenção.
 
