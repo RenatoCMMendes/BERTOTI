@@ -63,22 +63,18 @@ Spotify utiliza microserviços para suas funcionalidades de streaming de música
 # Atividade 4
 
 Sistema Escolhido: Sistema de Pet Shop
-Arquitetura: Arquitetura Baseada em Eventos
+Arquitetura: Arquitetura Baseada em Microserviços
 Vantagens:
 Desacoplamento:
-
 Descrição: Componentes do sistema podem funcionar de forma independente, respondendo a eventos sem dependências diretas entre si.
 
 Benefício: Aumenta a flexibilidade do sistema, permitindo que novos serviços sejam adicionados sem alterar os existentes.
 Escalabilidade:
-
 Descrição: Os componentes podem ser escalados independentemente com base na quantidade de eventos processados.
-
 Benefício: Permite escalar apenas os componentes que estão sob alta demanda, otimizando o uso de recursos.
+
 Reatividade:
-
 Descrição: O sistema pode reagir a eventos em tempo real, proporcionando uma experiência mais responsiva para o usuário.
-
 Benefício: Melhora a experiência do usuário com respostas rápidas a ações como agendamento de consultas, atualizações de inventário e notificações.
 
 Desvantagens:
@@ -95,20 +91,19 @@ Banco de Dados NoSQL para Dados Não-Estruturados
 Escalabilidade Horizontal
 Vantagens:
 Distribuição de Carga:
-
 Descrição: Permite a adição fácil de recursos, distribuindo a carga entre vários servidores.
 Benefício: Melhora a capacidade de lidar com altos volumes de tráfego, especialmente durante picos de uso, como promoções ou campanhas sazonais.
-Resiliência:
 
+Resiliência:
 Descrição: Em caso de falha, a presença de múltiplos nós permite manter a operação sem grandes interrupções.
 Benefício: Aumenta a disponibilidade e confiabilidade do sistema, minimizando o tempo de inatividade, crucial para um pet shop que opera tanto online quanto fisicamente.
+
 Desvantagens:
 Complexidade de Configuração:
-
 Descrição: Configurar e gerenciar a escalabilidade horizontal pode ser mais complexo do que simplesmente aumentar os recursos de um servidor.
 Impacto: Exige expertise em infraestrutura distribuída e ferramentas de gestão adequadas para monitorar e balancear a carga entre servidores.
-Custo:
 
+Custo:
 Descrição: Aumentar a infraestrutura horizontalmente pode resultar em custos mais elevados.
 Impacto: Pode resultar em custos adicionais para hardware, software e recursos humanos, devido à necessidade de mais servidores e gerenciamento mais complexo.
 
