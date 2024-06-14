@@ -118,7 +118,7 @@ Exemplo: Spotify (streaming de música)
 
 ## Atividade 5
 
-![Diagrama de Classe](https://github.com/RenatoCMMendes/BERTOTI/blob/83d2aa337641d85ede610c80e43ebe726b616b3c/img/petshop.png)
+![Diagrama de Classe](https://github.com/RenatoCMMendes/BERTOTI/blob/1bc0bd0b1db075fc8551c2dca61d75aff5a1a5e2/img/petshop.png)
 
 ---
 
@@ -136,6 +136,6 @@ Os códigos estão disponíveis no repositório.
 
 ## Atividade 8
 
-![Diagrama de Caso de Uso](https://github.com/RenatoCMMendes/BERTOTI/blob/83d2aa337641d85ede610c80e43ebe726b616b3c/img/Diagramadecasodeuso.png)
+![Diagrama de Caso de Uso](https://github.com/RenatoCMMendes/BERTOTI/blob/1bc0bd0b1db075fc8551c2dca61d75aff5a1a5e2/img/Diagramadecasodeuso.png)
 
 ---
