@@ -37,11 +37,15 @@ O projeto Porygon2 teve como objetivo principal desenvolver uma aplicação de c
 
 #### Contribuições Pessoais
 
-- **Desativação de portais:** implementei o fluxo completo para desativar portais no sistema, tanto no backend (status lógico) quanto no frontend, evitando exclusão permanente de registros importantes.
-- **Verificação de duplicidade:** criei a lógica para bloquear a inserção de notícias com títulos ou conteúdos repetidos, validando tanto no frontend quanto no backend para evitar dados redundantes.
-- **Validação de intervalo de datas:** implementei a validação lógica do intervalo de datas selecionadas pelo usuário, garantindo consistência nas consultas e evitando erros lógicos.
-- **Filtros por data:** adicionei suporte para filtros de busca baseados em datas, com integração backend-frontend e construção dinâmica de queries.
-- **Vinculação e remoção de tags:** participei do desenvolvimento da funcionalidade que permite associar e desassociar tags ao cadastrar novos portais, criando relacionamentos entre tabelas e controlando visualmente no frontend.
+- **Desativação de portais:** implementei o fluxo completo para desativar portais no sistema. Isso envolveu a adição de um campo de status no banco de dados para indicar a desativação lógica, evitando a exclusão física de dados. No backend, adaptei os endpoints para respeitarem esse status e atualizei os métodos de listagem para exibirem apenas portais ativos. No frontend (Vue.js), adaptei o formulário de edição e a tabela de visualização para refletir o novo estado.
+
+- **Verificação de duplicidade:** desenvolvi uma lógica robusta no backend para impedir a inserção de notícias com título e conteúdo duplicados, utilizando consultas ao banco antes da persistência. No frontend, adicionei feedback visual ao usuário com mensagens de erro em tempo real durante o preenchimento do formulário, garantindo integridade dos dados e boa experiência de uso.
+
+- **Validação de intervalo de datas:** implementei no backend um validador de intervalo de datas que impedia a seleção de datas inconsistentes (ex: início posterior ao fim), retornando erros claros. Essa lógica foi integrada ao frontend, onde adicionei controles visuais (como `date pickers` e validação reativa) para evitar erros antes mesmo do envio do formulário.
+
+- **Filtros por data:** adicionei suporte completo para filtragem de registros com base em intervalos de datas. No backend, construí queries dinâmicas e flexíveis com JPQL e Criteria API para suportar diferentes combinações de filtros. No frontend, implementei o componente de filtro e controle de estado da interface para acionar requisições à API.
+
+- **Vinculação e remoção de tags:** atuei na criação da funcionalidade de vinculação e desvinculação de tags no momento do cadastro de novos portais. No backend, modelei o relacionamento entre tabelas `Portal` e `Tag` (Many-to-Many), ajustando os DTOs e os mapeamentos JPA. No frontend, implementei o seletor múltiplo de tags com comportamento dinâmico, utilizando Vue.js e controle de estado local.
 
 #### Hard Skills
 
