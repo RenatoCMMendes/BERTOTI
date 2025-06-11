@@ -10,7 +10,6 @@ public class EstacaoMeteorologica {
     }
 
     public void novosDados(Dado dado) {
-        // Chama diretamente os consumidores (alto acoplamento)
         dashboard.atualizar(dado);
         previsao.atualizar(dado);
     }

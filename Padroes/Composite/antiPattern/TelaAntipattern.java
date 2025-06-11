@@ -1,9 +1,9 @@
 package Composite.antiPattern;
 
+import java.awt.FlowLayout;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JTextField;
-import java.awt.FlowLayout;
 
 public class TelaAntipattern extends JFrame {
 
@@ -16,7 +16,6 @@ public class TelaAntipattern extends JFrame {
         setLayout(new FlowLayout());
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        // Criação e adição direta dos componentes
         botaoEnviar = new JButton("Enviar");
         campoTexto = new JTextField(15);
 
