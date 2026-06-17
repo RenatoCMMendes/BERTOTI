@@ -180,3 +180,102 @@ O projeto Porygon3 expandiu o sistema desenvolvido anteriormente, adicionando da
 - Resolução de problemas complexos – análise e correção de bugs críticos.
 - Comunicação técnica – explicação de decisões arquiteturais e padrões usados.
 - Colaboração – trabalho ativo nas sprints e revisões de PRs.
+
+---
+
+## Em 2025-2 – Projeto Athos Insight (5º Semestre)
+
+**Empresa parceira:** Necto
+
+O projeto Athos Insight teve como objetivo desenvolver uma plataforma analítica para gestão de projetos capaz de consumir dados de sistemas externos, consolidá-los em um Data Warehouse e transformá-los em informações estratégicas por meio de dashboards e relatórios gerenciais. A solução permitiu acompanhar produtividade, custos, horas trabalhadas, bugs e issues dos projetos, auxiliando gestores na tomada de decisão baseada em dados.
+
+[GitHub do projeto](https://github.com/AthosFatecSjc/Athos_Insight)
+
+### Tecnologias Utilizadas
+
+- Python – Desenvolvimento das regras de negócio e processamento dos dados.
+- Django – Estruturação da aplicação web seguindo arquitetura MVC.
+- PostgreSQL – Persistência dos dados operacionais e analíticos.
+- HTMX – Atualização dinâmica de componentes sem necessidade de frameworks SPA complexos.
+- Docker – Padronização dos ambientes e deploy da aplicação.
+- Git/GitHub – Controle de versão e colaboração entre os membros da equipe.
+- Figma – Prototipação das telas e validação dos fluxos da aplicação.
+
+### Contribuições Pessoais
+
+- Atuei no desenvolvimento de funcionalidades relacionadas aos relatórios gerenciais e dashboards analíticos da plataforma.
+- Participei da implementação de consultas e filtros para exibição de dados consolidados por período, colaborador e projeto.
+- Auxiliei na integração entre as camadas da aplicação, garantindo a correta comunicação entre banco de dados, backend e interface.
+- Trabalhei na manutenção e correção de débitos técnicos identificados durante as sprints, contribuindo para a estabilidade do sistema.
+- Colaborei na implementação de regras de negócio relacionadas ao controle de horas, produtividade e indicadores dos projetos.
+- Participei das revisões de código e testes das funcionalidades desenvolvidas pela equipe, garantindo aderência aos padrões estabelecidos.
+
+### Hard Skills
+
+- Django – Desenvolvimento de aplicações web organizadas em camadas.
+- PostgreSQL – Modelagem e consultas para relatórios analíticos.
+- Data Warehouse – Manipulação e consolidação de dados para geração de indicadores.
+- Docker – Gerenciamento de ambientes padronizados para desenvolvimento e implantação.
+
+### Soft Skills
+
+- Trabalho em equipe em ambiente ágil utilizando Scrum.
+- Resolução de problemas relacionados à integração e consistência dos dados.
+- Organização e comprometimento com prazos e entregas da equipe.
+- Adaptabilidade para atuar tanto em novas funcionalidades quanto em correções e melhorias técnicas.
+
+---
+
+## Em 2026-1 – Projeto EnerSight (6º Semestre)
+
+**Empresa parceira:** TECSYS
+
+O projeto EnerSight teve como objetivo desenvolver uma plataforma analítica para o setor elétrico, capaz de coletar, processar e visualizar dados públicos disponibilizados pela ANEEL. A solução centraliza indicadores regulatórios como DEC e FEC, permitindo análises comparativas entre distribuidoras, regiões e agrupamentos elétricos, auxiliando equipes técnicas e comerciais na tomada de decisões estratégicas.
+
+[GitHub do projeto](https://github.com/CoderHoodFatec/EnerSight)
+
+### Tecnologias Utilizadas
+
+- Java 21 – Desenvolvimento backend da aplicação.
+- Spring Boot – Construção da API REST e regras de negócio.
+- PostgreSQL – Armazenamento dos dados analíticos e operacionais.
+- MongoDB – Armazenamento de logs e informações complementares.
+- Vue.js – Desenvolvimento da interface web responsiva.
+- Vuetify – Componentes visuais e padronização da interface.
+- TypeScript – Desenvolvimento frontend com tipagem estática.
+- Docker – Containerização dos serviços.
+- Swagger – Documentação dos endpoints da API.
+- Git/GitHub – Versionamento e colaboração da equipe.
+- Figma – Prototipação e validação das interfaces.
+
+### Contribuições Pessoais
+
+- Atuei como Scrum Master da equipe, conduzindo cerimônias ágeis, acompanhando o progresso das sprints e auxiliando na remoção de impedimentos técnicos.
+- Participei do desenvolvimento do módulo de visualização analítica, responsável pela exibição de indicadores regulatórios obtidos da ANEEL.
+- Colaborei na implementação de filtros avançados para análise de dados por distribuidora, estado, agrupamento elétrico e período.
+- Auxiliei na construção das funcionalidades de ranking operacional, permitindo comparar indicadores de desempenho entre diferentes concessionárias.
+- Participei da implementação e integração da funcionalidade de visualização geográfica (Heatmap), utilizada para identificar regiões com maior risco operacional.
+- Atuei na análise e refinamento dos requisitos relacionados à coleta, processamento e normalização dos dados regulatórios.
+- Colaborei na definição e acompanhamento das estratégias de versionamento, revisão de código e fluxo de integração contínua da equipe.
+- Participei das discussões técnicas relacionadas à arquitetura do sistema, garantindo escalabilidade e facilidade de manutenção.
+
+### Hard Skills
+
+- Spring Boot – Desenvolvimento de APIs REST escaláveis e organizadas em camadas.
+- Vue.js e TypeScript – Construção de interfaces modernas e interativas.
+- PostgreSQL e MongoDB – Modelagem e manipulação de bancos relacionais e NoSQL.
+- Processamento de Dados – Coleta, validação e normalização de dados públicos da ANEEL.
+- Visualização Analítica – Desenvolvimento de rankings, filtros e mapas para análise de indicadores.
+- Docker – Containerização e padronização de ambientes.
+- Arquitetura de Software – Aplicação de boas práticas para escalabilidade e manutenção.
+
+### Soft Skills
+
+- Liderança – Atuação como Scrum Master, coordenando atividades e acompanhando entregas da equipe.
+- Comunicação – Facilitação das cerimônias ágeis e alinhamento entre equipe e Product Owner.
+- Gestão de Equipe – Organização das tarefas e acompanhamento da evolução das sprints.
+- Resolução de Problemas – Identificação e mitigação de impedimentos técnicos.
+- Pensamento Analítico – Interpretação de requisitos complexos e transformação em soluções técnicas.
+- Colaboração – Trabalho conjunto com desenvolvedores, Product Owner e cliente durante todo o projeto.
+
+---
