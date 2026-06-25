@@ -59,7 +59,7 @@ O projeto Falcon teve como objetivo introduzir os alunos ao desenvolvimento de s
 
 **Empresa parceira:** Projeto acadêmico da FATEC
 
-O projeto Porygon introduziu o uso de Java com Spring Boot e MySQL, aprofundando conhecimentos sobre APIs REST, arquitetura em camadas e modelagem de dados. O sistema consistia no cadastro e gerenciamento de funcionários e setores, além de páginas dinâmicas com Thymeleaf.
+O projeto Porygon teve como objetivo desenvolver uma ferramenta para consolidação e análise de dados climáticos de cidades do estado de São Paulo. A aplicação permitia importar e validar arquivos CSV contendo medições meteorológicas, gerenciar estações e cidades, além de gerar relatórios estatísticos para apoiar análises ambientais. O projeto proporcionou a aplicação prática de conceitos de modelagem de banco de dados relacional, desenvolvimento em Java Desktop, integração com banco de dados via JDBC e utilização de metodologias ágeis durante o processo de desenvolvimento.
 
 [GitHub do projeto](https://github.com/PorygonAPI/Porygon)
 
@@ -232,7 +232,7 @@ O projeto Athos Insight teve como objetivo desenvolver uma plataforma analítica
 
 O projeto EnerSight teve como objetivo desenvolver uma plataforma analítica para o setor elétrico, capaz de coletar, processar e visualizar dados públicos disponibilizados pela ANEEL. A solução centraliza indicadores regulatórios como DEC e FEC, permitindo análises comparativas entre distribuidoras, regiões e agrupamentos elétricos, auxiliando equipes técnicas e comerciais na tomada de decisões estratégicas.
 
-[GitHub do projeto](https://github.com/CoderHoodFatec/EnerSight)
+[GitHub do projeto](https://github.com/FatecCoderHood/EnerSight)
 
 ### Tecnologias Utilizadas
 
